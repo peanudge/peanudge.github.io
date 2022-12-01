@@ -26,16 +26,8 @@ This command generates static content into the `build` directory and can be serv
 
 ### Deployment
 
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
+`.env.teplate` 파일에서 `GIT_PASS` 에 PERSONAL ACCESS TOKEN을 생성해서 넣어줘야함.
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+
+> 🚧 `gh-pages`를 default branch로 가지지만 setting - Pages 에서 github page branch는 수정해줘야함.
