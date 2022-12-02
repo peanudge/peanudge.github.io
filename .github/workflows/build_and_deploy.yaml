@@ -35,15 +35,15 @@ jobs:
       - name: Create .env file
         run: |
           touch .env
-          echo USE_SSH="true" >> .env
-          echo GIT_USER=${{ secrets.GITHUB_USERNAME }} >> .env
-          echo CURRENT_BRANCH="main" >> .env
+          echo USE_SSH=false >> .env
+          echo GIT_USER=${{ secrets.USERNAME }} >> .env
+          echo CURRENT_BRANCH=main >> .env
           echo GIT_PASS=${{ secrets.PERSONAL_ACCESS_TOKEN }} >> .env
           cat .env
 
       - name: Set github account identity
         run: |
-          git config --global user.name ${{ secrets.GITHUB_REPOSITORY_OWNER }}
+          git config --global user.name ${{ secrets.USERNAME }}
           git config --global user.email ${{ secrets.USER_EMAIL }}
 
       - name: Deploy
