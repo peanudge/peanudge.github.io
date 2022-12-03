@@ -36,15 +36,9 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        // docs: false,
-        docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        }, 
+        docs: false, 
         blog: {
+          routeBasePath: '/', // Serve the blog at the site's root
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -62,7 +56,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Peanut Lover Site',
+        title: 'Peanut Lover Tech Blog',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -75,7 +69,7 @@ const config = {
           //   position: 'left',
           //   label: 'Tutorial',
           // },
-          {to: '/blog', label: 'Tech Blog', position: 'left'},
+          // {to: '/blog', label: 'Tech Blog', position: 'left'},
           {
             href: 'https://github.com/peanut-lover',
             label: 'GitHub',

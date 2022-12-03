@@ -2,11 +2,7 @@
 title: 블로그 시작을 알리며...
 description: This is my first post on Docusaurus 2.
 slug: welcome-docusaurus-v2
-authors:
-  - name: Jiho Shon
-    title: Frontend Developer in miso.inc
-    url: https://github.com/peanut-lover
-    image_url: https://avatars.githubusercontent.com/u/20085849?v=4
+authors: jiho
 tags: [intro, docusaurus-v2]
 # Display h2 to h5 headings
 toc_min_heading_level: 2
