@@ -80,15 +80,15 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Blog',
-            items: [
-              {
-                label: 'Tech Blog',
-                to: '/blog',
-              },
-            ],
-          },
+          // {
+          //   title: 'Blog',
+          //   items: [
+          //     {
+          //       label: 'Tech Blog',
+          //       to: '/blog',
+          //     },
+          //   ],
+          // },
           // {
           //   title: 'Community',
           //   items: [
