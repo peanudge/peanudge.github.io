@@ -312,7 +312,7 @@ class ComponentTrackingPlugin {
 
 이제 component 정보를 page module과 연결해주기만하면 저희가 원하는 최종적인 결과물인 페이지 모듈마다 어떤 컴포넌트가 있는지를 확인할 수 있게됩니다.
 
-최종적으로 결과물을 뽑아낼 수 있는 적절한 hook을 찾아보니 컴파일이 끝나는 훅인 `compiler.hooks.done` 을 이용해서 최종 결과물을 JSON 파일로 출력해보겠습니다.
+최종적으로 결과물을 뽑아낼 수 있는 적절한 hook을 찾아보면 컴파일이 끝나는 훅인 `compiler.hooks.done`가 있으니 이를 활용해서 최종 결과물을 JSON 파일로 출력해보겠습니다.
 
 ```javascript
 class ComponentTrackingPlugin {
