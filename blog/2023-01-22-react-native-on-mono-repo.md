@@ -9,17 +9,17 @@ toc_min_heading_level: 2
 toc_max_heading_level: 5
 ---
 
-# 모노 레포에서의 react-native 설정 방법
+# 모노 레포에서 react-native 설정 방법
 
-react native 프로젝트를 웹 프로젝트들과 함께 관리하고 유틸 함수를 함께 관리하면 용이할 것 같아서 구성을 해보게 되었습니다.
+react native 프로젝트를 웹 프로젝트들과 함께 관리하면 용이할 것 같아서 구성을 해보게 되었습니다.
 
 [NX](https://nx.dev/getting-started/package-based-repo-tutorial)를 이용해서 React Native 프로젝트를 포함한 모노레포를 구성할 때 3가지 옵션이 있습니다.
 
-- NX에서 재공해주는 React Native Project 템플릿 이용하기
-- yarn workspace를 이용해서 `npx react-native init` 으로 구성. (`no-hoist` 옵션으로 React Native 프로젝트 따로 격리)
-- yarn workspace를 이용해서 `npx react-native init` 으로 구성. (스크립트들의 경로를 직접 수정)
+- NX에서 재공해주는 React Native Project 템플릿 사용
+- yarn workspaces 와 `npx react-native init` 으로 구성 (`no-hoist` 옵션)
+- yarn workspaces 와 `npx react-native init` 으로 구성 (스크립트들의 경로를 직접 수정)
 
-## NX에서 재공해주는 React Native Project 템플릿 이용하기
+## NX에서 제공해주는 React Native Project 템플릿 사용
 
 https://nx.dev/packages/react-native
 
