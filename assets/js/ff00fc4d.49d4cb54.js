@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[127],{4427:e=>{e.exports=JSON.parse('{"label":"mono-repo","permalink":"/tags/mono-repo","allTagsPath":"/tags","count":1}')}}]);
