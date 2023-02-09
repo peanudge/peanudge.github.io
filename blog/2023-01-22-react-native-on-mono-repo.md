@@ -1,5 +1,5 @@
 ---
-title: Setting React Native on Mono Repo(Nx)
+title: Mono Repo(Nx)에 React Native 앱 세팅하기
 description: Setting mono repo using React Native CLI
 slug: react-native-on-mono-repo
 authors: jiho
