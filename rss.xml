@@ -23,7 +23,7 @@ Docusaurus에서는 component swizzling은 built-in 제공하는 컴포넌트를
             <category>blog</category>
         </item>
         <item>
-            <title><![CDATA[Setting React Native on Mono Repo(Nx)]]></title>
+            <title><![CDATA[Mono Repo(Nx)에 React Native 앱 세팅하기]]></title>
             <link>https://peanut-lover.github.io/react-native-on-mono-repo</link>
             <guid>react-native-on-mono-repo</guid>
             <pubDate>Sun, 22 Jan 2023 00:00:00 GMT</pubDate>
