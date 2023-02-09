@@ -128,7 +128,7 @@ Swizzle 과정은 아래와같이 처리됩니다. (Swizzling 자체에 대한 �
 
 ## `yarn swizzle` 과정
 
-https://asciinema.org/a/DqcP8Le024hrJ2zy7de3br8fN
+[![asciicast](https://asciinema.org/a/DqcP8Le024hrJ2zy7de3br8fN.svg)](https://asciinema.org/a/DqcP8Le024hrJ2zy7de3br8fN)
 
 댓글 위젯을 추가하기 위해서는 Wrapping으로 충분할 것 같아 이렇게 진행해보았습니다.
 
