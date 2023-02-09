@@ -19,6 +19,8 @@ react native 프로젝트를 웹 프로젝트들과 함께 관리하면 용이�
 - yarn workspaces 와 `npx react-native init` 으로 구성 (`no-hoist` 옵션)
 - yarn workspaces 와 `npx react-native init` 으로 구성 (스크립트들의 경로를 직접 수정)
 
+<!--truncate-->
+
 ## NX에서 제공해주는 React Native Project 템플릿 사용
 
 https://nx.dev/packages/react-native
