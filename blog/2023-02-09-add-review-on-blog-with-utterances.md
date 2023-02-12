@@ -1,5 +1,5 @@
 ---
-title: 블로그 리뷰 기능 추가하기(using Utterances)
+title: 블로그 리뷰 기능 추가하기(Utterances 위젯)
 description: how to add review feature about blog
 slug: utterances
 authors: jiho
