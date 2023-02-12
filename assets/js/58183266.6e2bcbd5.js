@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[6496],{6050:e=>{e.exports=JSON.parse('{"label":"GenomicRangeQuery","permalink":"/tags/genomic-range-query","allTagsPath":"/tags","count":1}')}}]);
