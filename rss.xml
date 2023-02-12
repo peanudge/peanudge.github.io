@@ -9,7 +9,7 @@
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[블로그 리뷰 기능 추가하기(using Utterances)]]></title>
+            <title><![CDATA[블로그 리뷰 기능 추가하기(Utterances 위젯)]]></title>
             <link>https://peanut-lover.github.io/utterances</link>
             <guid>utterances</guid>
             <pubDate>Thu, 09 Feb 2023 00:00:00 GMT</pubDate>
