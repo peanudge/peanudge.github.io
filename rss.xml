@@ -4,10 +4,22 @@
         <title>Peaut Lover Tech Blog Blog</title>
         <link>https://peanut-lover.github.io/</link>
         <description>Peaut Lover Tech Blog Blog</description>
-        <lastBuildDate>Thu, 09 Feb 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 12 Feb 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[소프트엔지니어에게 필요한 데이터 문해력 (초안)]]></title>
+            <link>https://peanut-lover.github.io/data-literacy-for-engineer</link>
+            <guid>data-literacy-for-engineer</guid>
+            <pubDate>Sun, 12 Feb 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[data literacy for softengineer]]></description>
+            <content:encoded><![CDATA[<p>홈서비스 O2O 플랫폼 서비스를 제공하는 미소에서 근무할 때 가장 인상 깊었던 경험이라면 "데이터 문해력"이라는 책을 읽고 PM, PO 분들과 매주 스터디를 했던 두 달이 기억납니다.</p><p>항상 데이터를 기반으로 의사 결정을 해야한다는 말을 많이 들으면서 미소에서 서비스 프러덕트를 개발해왔지만 "데이터 문해력" 북 스터디를 진행하기 전까지는 우리 팀이 정말로 데이터 기반으로 의사결정을 하고 있는지 확신이 들지 않았습니다.</p><p>대부분 팀원들이 단순히 "데이터 기반으로 의사결정을 한다"라는 문장 그대로 의미를 받아들였던 것 같습니다. <strong>특정한 결정을 할 때는 의사결정권자들을 설득할만한 데이터를 보여줘야한다는 피상적인 이해</strong>만 가지고 업무를 진행해왔습니다. 이 정도 이해만으로는 원하는 데이터가 없으면 새로운 결정을 할 수도 없어서 아무런 행동을 못하게 되거나 데이터가 없더라도 아무것도 안하는 것보단 나을 것이라는 이유로 개발을 시작하곤 합니다. 이러한 접근들이 프로젝트 진행에 답답함을 느끼게하는 것 같습니다. (물론 대부분의 조직의 PM들이 이런 답답함을 해소해주고 도와주고 있습니다.)</p><p>특히, 주관적인 생각일 수도 있지만 엔지니어들은(특히, 한 때 방법맨이었던 과거의 나) 방법론에만 집중하려는 접근을 많이 가지고 있는 것 같습니다. 엔지니어는 문제를 해결하는 방법을 주로 배우고 다루기 때문에 당연한 것일 수도 있습니다. (엔지니어로 성장하는 과정 중 학교, 시험, 취업준비에서 항상 문제 정의는 출제자나 교수님, 책에서 명확히 제안해주니...)</p><p>하지만 실제 현실 세계의 문제들을 해결할 시니어 엔지니어나 프러덕트 매니저가 될 엔지니어들에겐 <strong>문제 정의, 문제와 일치하는 데이터를 찾는 능력</strong>이 필수가 되는 시대가 된 것 같습니다.</p><h1>데이터 문해력이란?</h1><p>(작성 중...)</p><h1>구글 엔지니어들에게서도 보이는 데이터 문해력 (GSM - Goal Signal Metric)</h1><p>"구글 엔지니어는 이렇게 읽한다"(Software Engineering at Google)라는 책을 읽으면서도 데이터문해력이 소프트웨어 엔지니어에게 필수라고 불리는 근거를 살펴볼 수 있습니다.</p><p>성능 지표를 수집해야하는가? 어떻게 수집해야하는가?에 대한 가이드로 GSM 이라는 개념 소개하는 내용이 있습니다.</p><p>(작성 중...)</p><h1>사이드 프로젝트에서도 필요해보이는 데이터 문해력</h1><p>시험삼아 적용해보고 진짜 효과적인가에 대한 의문이 생겼습니다. 그래서 외부 실제 스터디에서 실행했던 프로젝트에서 저는 의식적으로 데이터 문해력에서 파악한 내용을 적용해보려 했습니다.</p><ul><li>문제 제대로 정의해보기. (문제, 원인, 방법 제대로 구분/정의하기)</li></ul><p>(작성 중...)</p>]]></content:encoded>
+            <category>data</category>
+            <category>literacy</category>
+            <category>engineer</category>
+            <category>google</category>
+        </item>
         <item>
             <title><![CDATA[블로그 리뷰 기능 추가하기(Utterances 위젯)]]></title>
             <link>https://peanut-lover.github.io/utterances</link>
