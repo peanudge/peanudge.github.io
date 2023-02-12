@@ -126,15 +126,15 @@ $ yarn swizzle
 
 Swizzle 과정은 아래와같이 처리됩니다. (Swizzling 자체에 대한 설명은 공식문서에서 잘 설명이 되있으니 링크로 대체합니다!)
 
-## `yarn swizzle` 과정
+## BlogPostPaginator 컴포넌트를 `swizzle`해서 Utterance 위젯 추가
+
+`yarn swizzle`를 이용하면 아래와 같은 CLI 과정을 거쳐 docusaurus의 built-in 컴포넌트를 wrapping하는 컴포넌트(`src/theme/BlogPostPaginator/index.js`)를 자동 생성해줍니다.
+
+> 🚧 eject 방식이 아닌 wrapper 를 생성하도록 유의해주세요~
 
 [![asciicast](https://asciinema.org/a/DqcP8Le024hrJ2zy7de3br8fN.svg)](https://asciinema.org/a/DqcP8Le024hrJ2zy7de3br8fN)
 
-댓글 위젯을 추가하기 위해서는 Wrapping으로 충분할 것 같아 이렇게 진행해보았습니다.
-
-이렇게 swizzling(ejection이 아닌 wrapping)을 수행하면 `src/theme/BlogPostItem/index.js`라는 파일이 생성되고 내용을 확인해보면 **블로그 Post**를 감싸는 컴포넌트임을 확인할 수 있습니다.
-
-자 이제 script를 리액트 컴포넌트로 사용할 수 있도록 재사용 컴포넌트 하나(`src/components/Uttrances.tsx`)를 생성해주겠습니다.
+자! 이제 위에서 생성했던 utterances `<script/>`를 리액트 컴포넌트로 사용할 수 있도록 재사용 컴포넌트(`src/components/Uttrances.tsx`)를 생성해주겠습니다.
 
 ```javascript
 import React from "react";
@@ -168,25 +168,21 @@ export default React.memo(() => (
 ));
 ```
 
-이 컴포넌트를 아래와 같이 `src/theme/BlogPostItem/index.js`에 적용하면 끝입니다!
+이 컴포넌트를 아래와 같이 `src/theme/BlogPostPaginator/index.js`에 적용하면 끝입니다!
 
 ```javascript
 import React from "react";
-import BlogPostItem from "@theme-original/BlogPostItem";
-import Uttrances from "@site/src/components/Uttrances"; // script 컴포넌트
+import BlogPostPaginator from "@theme-original/BlogPostPaginator";
+import Uttrances from "@site/src/components/Uttrances";
 
-export default function BlogPostItemWrapper(props) {
+export default function BlogPostPaginatorWrapper(props) {
   return (
     <>
-      <BlogPostItem {...props} />
-      <Uttrances />
+      <BlogPostPaginator {...props} />
+      <div style={{ marginTop: 20 }}>
+        <Uttrances />
+      </div>
     </>
   );
 }
 ```
-
-# 정리
-
-- 타 블로그들에서는 어떤 방식을 취하는가?
-
-- 토스 종호님은 어떻게 처리했는지 피드백 받기
