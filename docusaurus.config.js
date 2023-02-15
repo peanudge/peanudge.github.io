@@ -40,6 +40,8 @@ const config = {
         blog: {
           routeBasePath: "/", // Serve the blog at the site's root
           showReadingTime: true,
+          blogSidebarTitle: "All posts",
+          blogSidebarCount: "ALL",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
