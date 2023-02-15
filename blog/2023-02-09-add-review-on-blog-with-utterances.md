@@ -18,11 +18,11 @@ toc_max_heading_level: 5
 
 <!--truncate-->
 
-# Utterances 위젯이란?
+## Utterances 위젯이란?
 
 바로 연동 방법을 찾아보기 전에 `Utterances`를 한 번 이해해본 후 사용법을 알아봅시다.
 
-## 공식 홈페이지를 확인해보자.
+### 공식 홈페이지를 확인해보자.
 
 > 🏠 공식 홈페이지
 > https://utteranc.es/
@@ -105,7 +105,7 @@ Blog Post를 Issue와 어떻게 Mapping 시킬지를 정하면됩니다.
 ></script>
 ```
 
-# Uttrances를 Docusaurus 프레임워크에 적용하기
+## Uttrances를 Docusaurus 프레임워크에 적용하기
 
 위와 같은 결과를 가지고 docusaurus 블로그에 적용하려니 어떻게 할지 감이 안잡혀서 우선 공식문서를 뒤져봤습니다.
 
@@ -127,7 +127,7 @@ $ yarn swizzle
 
 Swizzle 과정은 아래와같이 처리됩니다. (Swizzling 자체에 대한 설명은 공식문서에서 잘 설명이 되있으니 링크로 대체합니다!)
 
-## BlogPostPaginator 컴포넌트를 `swizzle`해서 Utterance 위젯 추가
+### BlogPostPaginator 컴포넌트를 `swizzle`해서 Utterance 위젯 추가
 
 `yarn swizzle`를 이용하면 아래와 같은 CLI 과정을 거쳐 docusaurus의 built-in 컴포넌트를 wrapping하는 컴포넌트(`src/theme/BlogPostPaginator/index.js`)를 자동 생성해줍니다.
 
@@ -188,6 +188,6 @@ export default function BlogPostPaginatorWrapper(props) {
 }
 ```
 
-# 정리
+## 정리
 
 위에서 소개한 Docusaurus의 Swizzling 기술을 이용해서 다양한 컴포넌트를 커스터마이징을 할 수 있습니다. `yarn swizzle --list`로 확인할 수 있는 커스터마이징 가능한 컴포넌트들이 있는데 주의해서 적절한 컴포넌트를 골라야합니다. `BlogPostItem`에 처음 Utterances 위젯을 붙였었는데 BlogPost를 List할 때도 `BlogPostItem` 컴포넌트들이 보이는 이슈가 있었습니다. 그래서 적절한 컴포넌트를 고르기 위해서는 어느정도 시행착오가 필요할 것 같습니다. 컴포넌트들의 이름만으로는 이해하기 힘드니 직접 적용해보고 테스트해보시길 바랍니다.
