@@ -122,4 +122,12 @@ markdown의 활용도가 점차 넓어지는 것 같다. 문서화를 점점 지
 
 mermaid live editor라는 위지윅 도구를 활용하면 더욱 쉽게 다이어그램을 만들어낼 수 있으니 팀원들 설득해서 좋은 문서화를 잘할 수 있을 것 같습니다.
 
-그리고 문서를 읽다보니 text to diagram이 가능하니 code => diamgram 도 잘활용하면 되지않을까하는 생각이 들었습니다. 이전에 학습했던 AST 분석에 diagram을 활용해서 재밋는 도구를 만들어 볼 수 있을 것 같습니다.
+그리고 문서를 읽다보니 text to diagram이 가능하니 code => diamgram 를 잘 활용하면 더 훌륭한 자동화 도구를 만들 수 있지않을까 생각이 듭니다.
+
+> 이전에 학습했던 AST 분석과 mermaid 활용해서 재밋는 도구를 만들어 볼 수 있을 것 같습니다.
+
+# 참조
+
+> https://mermaid.js.org/syntax/flowchart.html
+
+> https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/
