@@ -21,6 +21,17 @@
             <category>google</category>
         </item>
         <item>
+            <title><![CDATA[ReactJS의 새로운 문서 받아들이기]]></title>
+            <link>https://peanut-lover.github.io/renewal-react-document</link>
+            <guid>https://peanut-lover.github.io/renewal-react-document</guid>
+            <pubDate>Tue, 21 Feb 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[ReactJS의 리뉴얼 문서는 왜 생겼을까?]]></description>
+            <content:encoded><![CDATA[<p>최근 React JS의 공식문서가 리뉴얼되고 있다는 소식이 종종 들립니다.(beta.reactjs.org) 이전 문서에서도 불만은 없었던터라 왜 리뉴얼을 했을지 궁금했습니다. <strong>리액트팀의 운영 기조(트렌드)</strong>가 바뀌었을까? 아니면 과거 문서에 문제점이 있었을까?</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-is-this-site">What is this site?<a href="#what-is-this-site" class="hash-link" aria-label="Direct link to What is this site?" title="Direct link to What is this site?">​</a></h2><p>그래서 리뉴얼되고 있는 공식 문서를 살펴보니 기존 문서와의 차이점은 아래와 같았습니다.</p><blockquote><p>All explanations are written using Hooks rather than classes.</p></blockquote><p><code>모든 설명들은 Class보다는 Hook을 사용해서 작성되었습니다.</code> 라는 내용을 보고 느낀점은 <strong>확실히 리액트팀은 클래스의 사용을 줄이고 싶은 것 같습니다.</strong> 이제는 확실히 Class 컴포넌트들을 Function 컴포넌트로 교체하는 걸 고려해봐야할 듯하네요.</p><ul><li>We’ve added interactive examples and visual diagrams.</li></ul><p>시각적인 다이어그램들과 문서를 읽는 독자들에게 도움되는 interactive한 예제들을 추가했습니다. 확실히 리액트 학습에 도움이 많이 되는 것 같습니다.</p><ul><li>Guides include challenges (with solutions!) to check your understanding.</li></ul><p>이해를 확인하기 위해 어려운 도전과제들과 그에 대한 해법들을 포함하고 있습니다. 개인적으로 채팅 예제들이 굉장히 많은 도움이 되었던 것 같습니다.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="will-this-site-replace-the-main-site">Will this site replace the main site?<a href="#will-this-site-replace-the-main-site" class="hash-link" aria-label="Direct link to Will this site replace the main site?" title="Direct link to Will this site replace the main site?">​</a></h2><p>리액트팀은 기존에 존재하던 리액트 문서를 새로운문서로 교체할 계획입니다. 그리고 오래된 리액트 웹사이트는 subdomain에 archive할 계획이라고합니다.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="리뉴얼-문서-읽어보고-리액트-활용-방향-파악하기">리뉴얼 문서 읽어보고 리액트 활용 방향 파악하기<a href="#리뉴얼-문서-읽어보고-리액트-활용-방향-파악하기" class="hash-link" aria-label="Direct link to 리뉴얼 문서 읽어보고 리액트 활용 방향 파악하기" title="Direct link to 리뉴얼 문서 읽어보고 리액트 활용 방향 파악하기">​</a></h3><p>앞으로 리액트의 대략적인 방향성을 파악하기 위해서 문서를 읽어보고 정리해보려합니다. 기존에 몰랐던 내용들도 많이 담겨있어서 도움이 많이 될 것 같습니다. 가능하다면 아래 3가지 카테고리로 문서를 정리해서 남겨둘 계획입니다.</p><ul><li>Escape Hatch on ReactJS Document<ul><li>ReactJS 의 Rendering 사이클을 벗어날 필요가 있을 때 해결방법</li><li><code>useEffect</code> or <code>useRef</code> ...etc</li></ul></li><li>Managing State on ReactJS Document<ul><li>Reconcilation(재조정)에 대한 이해</li></ul></li><li>(Youtube) The Documentary ReactJS<ul><li>리액트의 역사를 다큐로 잘 만들어놨길래 번역해서 정리해볼 계획입니다.</li></ul></li></ul>]]></content:encoded>
+            <category>react</category>
+            <category>renewal</category>
+            <category>document</category>
+        </item>
+        <item>
             <title><![CDATA[문서화를 잘하기 위한 시각화 도구 - Mermaid]]></title>
             <link>https://peanut-lover.github.io/mermaid-for-document</link>
             <guid>https://peanut-lover.github.io/mermaid-for-document</guid>
