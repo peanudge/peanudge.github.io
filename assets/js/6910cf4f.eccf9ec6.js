@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[9721],{5149:e=>{e.exports=JSON.parse('{"label":"useEffect","permalink":"/tags/use-effect","allTagsPath":"/tags","count":1}')}}]);
