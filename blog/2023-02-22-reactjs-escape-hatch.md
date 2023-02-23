@@ -1,6 +1,6 @@
 ---
 title: "Escape Hatch" of ReactJS - Ref and Effect
-description: ReactJS 내 특별한 동작(렌더링 사이클을 벗어나는)들을 처리하는 방법들
+description: Introduce "Esacpe Hatch" Section in Document ReactJS
 slug: reactjs-escape-hatch-effect-and-ref
 authors: jiho
 tags: [react, useEffect, useRef, escape-hatch]
