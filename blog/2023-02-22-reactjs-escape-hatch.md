@@ -1,6 +1,6 @@
 ---
-title: "Escape Hatch" of ReactJS - Ref and Effect
-description: Introduce "Esacpe Hatch" Section in Document ReactJS
+title: Escape Hatch of ReactJS - Ref and Effect
+description: Introduce Esacpe Hatch(ref, effect) in Document ReactJS
 slug: reactjs-escape-hatch-effect-and-ref
 authors: jiho
 tags: [react, useEffect, useRef, escape-hatch]
