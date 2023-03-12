@@ -9,7 +9,7 @@ require("dotenv").config();
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Peaut Lover Tech Blog",
-  tagline: "peanut is delicious",
+  tagline: "개발, 철학, 경험에 대한 글을 남깁니다.",
   url: "https://peanut-lover.github.io/",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -31,14 +31,36 @@ const config = {
     locales: ["en"],
   },
 
+  plugins: [
+    [
+      "@docusaurus/plugin-content-blog",
+      {
+        /**
+         * Required for any multi-instance plugin
+         */
+        id: "story-blog",
+        /**
+         * URL route for the blog section of your site.
+         * *DO NOT* include a trailing slash.
+         */
+        routeBasePath: "/story",
+        /**
+         * Path to data on filesystem relative to site dir.
+         */
+        path: "./story-blog",
+      },
+    ],
+  ],
   presets: [
     [
       "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: false,
+        docs: {
+          routeBasePath: "/docs", // Serve the docs at the site's root
+        },
         blog: {
-          routeBasePath: "/", // Serve the blog at the site's root
+          routeBasePath: "/blog", // Serve the blog at the site's root
           showReadingTime: true,
           blogSidebarTitle: "All posts",
           blogSidebarCount: "ALL",
@@ -70,7 +92,9 @@ const config = {
           //   position: 'left',
           //   label: 'Tutorial',
           // },
-          // {to: '/blog', label: 'Tech Blog', position: 'left'},
+          { to: "/blog", label: "Frontend", position: "left" },
+          { to: "/docs", label: "Document", position: "left" },
+          { to: "/story", label: "Story", position: "left" },
           {
             href: "https://github.com/peanut-lover",
             label: "GitHub",
@@ -81,39 +105,30 @@ const config = {
       footer: {
         style: "dark",
         links: [
-          // {
-          //   title: 'Blog',
-          //   items: [
-          //     {
-          //       label: 'Tech Blog',
-          //       to: '/blog',
-          //     },
-          //   ],
-          // },
-          // {
-          //   title: 'Community',
-          //   items: [
-          //     {
-          //       label: 'Stack Overflow',
-          //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-          //     },
-          //     {
-          //       label: 'Discord',
-          //       href: 'https://discordapp.com/invite/docusaurus',
-          //     },
-          //     {
-          //       label: 'Twitter',
-          //       href: 'https://twitter.com/docusaurus',
-          //     },
-          //   ],
-          // },
+          {
+            title: "Blog",
+            items: [
+              {
+                label: "Tech Blog",
+                to: "/blog",
+              },
+            ],
+          },
           {
             title: "More",
             items: [
-              // {
-              //   label: 'Blog',
-              //   to: '/blog',
-              // },
+              {
+                label: "Frontend Blog",
+                to: "/blog",
+              },
+              {
+                label: "Story Blog",
+                to: "/story",
+              },
+              {
+                label: "Document",
+                to: "/docs",
+              },
               {
                 label: "GitHub",
                 href: "https://github.com/peanut-lover",

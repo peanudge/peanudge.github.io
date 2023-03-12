@@ -21,3 +21,9 @@
   align-items: center;
   justify-content: center;
 }
+
+.landingTitle {
+  color: black;
+  text-align: center;
+  margin-top: 1em;
+}
