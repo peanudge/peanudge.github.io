@@ -5,7 +5,7 @@ slug: reactjs-escape-hatch-effect-and-ref
 authors: jiho
 tags: [react, useEffect, useRef, escape-hatch]
 toc_min_heading_level: 2
-toc_max_heading_level: 5
+toc_max_heading_level: 3
 ---
 
 # ReactJS "Escape Hatch" 문서를 읽고 정리
