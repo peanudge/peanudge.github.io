@@ -30,10 +30,6 @@ export default function Home(): JSX.Element {
       description="Description will go into a meta tag in <head />"
     >
       <HomepageHeader />
-      <main>
-        <h1 className={styles.landingTitle}>랜딩페이지 만드는 중... 💇‍♂️</h1>
-      </main>
-      <br />
     </Layout>
   );
 }
