@@ -14,8 +14,6 @@ toc_max_heading_level: 5
 
 간단히 Docusaurus 프레임워크에 깃 이슈를 통해 답글을 남길 수 있도록 하기위해서 Utterances 플러그인을 적용하는 방법을 글로 남겨보겠습니다.
 
-그리고 기술 블로그의 독자는 Docusaurus의 기반 기술인 리액트에 대한 이해는 가지고 있다고 가정해서 글을 남겨보겠습니다.
-
 <!--truncate-->
 
 ## Utterances 위젯이란?
