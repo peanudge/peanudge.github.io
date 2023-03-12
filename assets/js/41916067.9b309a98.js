@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[1728],{6736:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\ud14c\uc2a4\ud2b8 \uc2a4\ud1a0\ub9ac \ud3ec\uc2a4\ud305","permalink":"/story/renewal-react-document"}]}')}}]);

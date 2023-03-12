@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://peanut-lover.github.io/story</id>
+    <title>Peaut Lover Tech Blog Blog</title>
+    <updated>2023-03-12T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://peanut-lover.github.io/story"/>
+    <subtitle>Peaut Lover Tech Blog Blog</subtitle>
+    <icon>https://peanut-lover.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[테스트 스토리 포스팅]]></title>
+        <id>https://peanut-lover.github.io/story/renewal-react-document</id>
+        <link href="https://peanut-lover.github.io/story/renewal-react-document"/>
+        <updated>2023-03-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[테스트 스토리 블로그입니다.]]></summary>
+        <content type="html"><![CDATA[<p>이 블로그는 직접적인 개발이야기보다는 주관적인 생각을 많이 담은 이야기입니다. 개발자로써 자신의 생각들을 기록하기 위해서 만들어봤습니다.</p><p>주로 회고, 성장, 협업에 대한 글들을 남겨볼 생각입니다.</p>]]></content>
+        <author>
+            <name>Jiho Shon</name>
+            <uri>https://github.com/peanut-lover</uri>
+        </author>
+        <category label="story" term="story"/>
+    </entry>
+</feed>

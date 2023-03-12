@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[2906],{8996:e=>{e.exports=JSON.parse('{"label":"escape-hatch","permalink":"/blog/tags/escape-hatch","allTagsPath":"/blog/tags","count":1}')}}]);

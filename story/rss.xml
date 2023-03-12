@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Peaut Lover Tech Blog Blog</title>
+        <link>https://peanut-lover.github.io/story</link>
+        <description>Peaut Lover Tech Blog Blog</description>
+        <lastBuildDate>Sun, 12 Mar 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[테스트 스토리 포스팅]]></title>
+            <link>https://peanut-lover.github.io/story/renewal-react-document</link>
+            <guid>https://peanut-lover.github.io/story/renewal-react-document</guid>
+            <pubDate>Sun, 12 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[테스트 스토리 블로그입니다.]]></description>
+            <content:encoded><![CDATA[<p>이 블로그는 직접적인 개발이야기보다는 주관적인 생각을 많이 담은 이야기입니다. 개발자로써 자신의 생각들을 기록하기 위해서 만들어봤습니다.</p><p>주로 회고, 성장, 협업에 대한 글들을 남겨볼 생각입니다.</p>]]></content:encoded>
+            <category>story</category>
+        </item>
+    </channel>
+</rss>
