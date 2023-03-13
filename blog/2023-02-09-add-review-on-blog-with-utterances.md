@@ -2,7 +2,7 @@
 title: 블로그 리뷰 기능 추가하기(Utterances 위젯)
 description: how to add review feature about blog
 slug: utterances
-authors: jiho
+authors: miso-jiho
 tags: [utterances, review, blog]
 toc_min_heading_level: 2
 toc_max_heading_level: 5

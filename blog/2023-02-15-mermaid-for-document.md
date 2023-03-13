@@ -2,7 +2,7 @@
 title: 문서화를 잘하기 위한 시각화 도구 - Mermaid
 description: mermiad를 이용해서 문서를 시각화하는 방법
 slug: mermaid-for-document
-authors: jiho
+authors: miso-jiho
 tags: [document, visualize, mermaid]
 toc_min_heading_level: 2
 toc_max_heading_level: 5

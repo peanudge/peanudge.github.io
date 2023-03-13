@@ -2,7 +2,7 @@
 title: 블로그 시작을 알리며...
 description: This is my first post on Docusaurus 2.
 slug: 20230-intro
-authors: jiho
+authors: miso-jiho
 tags: [intro, docusaurus-v2]
 # Display h2 to h5 headings
 toc_min_heading_level: 2

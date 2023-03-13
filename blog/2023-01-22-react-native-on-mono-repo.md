@@ -2,7 +2,7 @@
 title: Mono Repo(Nx)에 React Native 앱 세팅하기
 description: Setting mono repo using React Native CLI
 slug: react-native-on-mono-repo
-authors: jiho
+authors: miso-jiho
 tags: [react-native, nx, mono-repo]
 # Display h2 to h5 headings
 toc_min_heading_level: 2

@@ -2,7 +2,7 @@
 title: AST 분석을 활용해서 컴포넌트 추적해보기
 description: Webpack Plugin을 활용해서 Component 사용 내역 확인하는 프로젝트
 slug: component-tracking-with-ast
-authors: jiho
+authors: miso-jiho
 tags: [ast, webpack, design-system, react]
 # Display h2 to h5 headings
 toc_min_heading_level: 2

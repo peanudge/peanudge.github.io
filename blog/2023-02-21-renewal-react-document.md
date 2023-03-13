@@ -2,7 +2,7 @@
 title: ReactJS의 새로운 문서 받아들이기
 description: ReactJS의 리뉴얼 문서는 왜 생겼을까?
 slug: renewal-react-document
-authors: jiho
+authors: miso-jiho
 tags: [react, renewal, document]
 toc_min_heading_level: 2
 toc_max_heading_level: 5
