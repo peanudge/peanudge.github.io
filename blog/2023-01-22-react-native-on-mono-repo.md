@@ -67,6 +67,30 @@ mobile 프로젝트는 아래와 CLI를 통해 프로젝트 템플릿으로 생�
 $ npx react-native init mobile
 ```
 
+위 CLI를 사용해서 프로젝트를 구성하다보면 아래 Error 로그가 보일 것입니다. 걱정하지않아도됩니다!
+
+```text
+✔ Downloading template
+✔ Copying template
+✔ Processing template
+✔ Installing Bundler
+✖ Installing CocoaPods dependencies (this may take a few minutes)
+error
+[!] Invalid `Podfile` file: cannot load such file -- /Users/sonjiho/Workspace/poosoap-frontend/packages/mobile/node_modules/react-native/scripts/react_native_pods.
+
+ #  from /Users/sonjiho/Workspace/poosoap-frontend/packages/mobile/ios/Podfile:1
+ #  -------------------------------------------
+ >  require_relative '../node_modules/react-native/scripts/react_native_pods'
+ #  require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+ #  -------------------------------------------
+
+✖ Installing CocoaPods dependencies (this may take a few minutes)
+error Error: Looks like your iOS environment is not properly set. Please go to https://reactnative.dev/docs/next/environment-setup and follow the React Native CLI QuickStart guide for macOS and iOS.
+Error: Error: Looks like your iOS environment is not properly set. Please go to https://reactnative.dev/docs/next/environment-setup and follow the React Native CLI QuickStart guide for macOS and iOS.
+```
+
+내용을 읽어보니 node_modules에서 적절한 스크립트 경로를 확인 못하는 것일뿐입니다. 저희가 모노레포로 프로젝트를 구성했기에 root level의 node_module 경로를 지정해줘야합니다!
+
 ### ios 관련 스크립트 수정
 
 - ios/Podfile 수정
