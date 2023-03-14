@@ -184,6 +184,13 @@ module.exports = {
 
 마지막으로 metro가 `node_modules`의 정확한 위치를 알 수 있도록 위 `watchFolders` 값을 추가해주도록 합니다.
 
+## (추가)VSCODE 와 같은 editor에서 `babel.config.js`를 감지할 수 없다는 린트 에러
+
+> babel 을 모노레포에서 어떻게 처리할지 가이드라인을 제시해준다.
+> https://babeljs.io/docs/config-files#monorepos
+
+CLI는 `babel.config.js`(Project-wide configuration)을 생성하는데 모노레포에서는 각 프로젝트 내부에 따른 다른 babel 설정이 필요하기 때문에 `.babelrc.*` 로 변경해줄 필요가 있습니다.
+
 # 정리
 
 React Native를 mono repo로 설정하기 위한 3가지 옵션을 제안해봤고 최종적으로 채택한 React Native 공식 템플릿을 기반으로 `node_modules` 경로를 스크립트에서 직접 수정하는 방법 채택하고 설정해봤습니다.
