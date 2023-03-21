@@ -1,9 +1,9 @@
 ---
 title: 사이드 프로젝트 - 가까운 화장실 찾기
-description: 카카오 지도 웹뷰
-slug: kakao-map-document
+description: 가까운 화장실 찾기 사이드 프로젝트 시작
+slug: sideproejct-poosoap
 authors: miso-jiho
-tags: [kakao, map]
+tags: [poosoap, sideproject, react-native]
 toc_min_heading_level: 2
 toc_max_heading_level: 3
 ---
