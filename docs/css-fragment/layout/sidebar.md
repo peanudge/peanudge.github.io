@@ -1,10 +1,10 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # SideBar Layout
 
-매번 사이드바가 있는 레이아웃을 구성할 때마다 기억해내야하는 것들을
+사이드바가 있는 레이아웃을 구성하기
 
 ![SideBar Image](./OnlySideMenu.jpg)
 
@@ -32,4 +32,8 @@ sidebar_position: 1
 }
 ```
 
+## 주의할 점
+
 - `min-width`를 `0`으로 처리하는 이유는 초기 값은 `auto` 이기 때문에 자식 요소의 최대 크기가 min-width로 지정된다.
+
+- `flex-direction: row-reverse;`로 변경하면 우측 사이드 바로 쉽게 변경 가능
