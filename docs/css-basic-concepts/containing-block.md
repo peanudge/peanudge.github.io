@@ -99,9 +99,9 @@ auto를 이용하면 어떠한 경우에도 자식요소의 추가된 padding을
 
 ```html
 <body>
-  <div class="box"></div>
-  <div class="box right"></div>
-  <div class="box"></div>
+  <div class="box">wow</div>
+  <div class="box right">wow</div>
+  <div class="box">wow</div>
 </body>
 ```
 
@@ -136,6 +136,39 @@ auto를 이용하면 어떠한 경우에도 자식요소의 추가된 padding을
   margin-left: auto;
 }
 ```
+
+또 다른 방법으로 자식 마크업 자체를 추가해서 자식 padding에 따라 부모 width가 변경되지 않도록하는 방법도 있습니다.
+
+```html
+<body>
+  <div class="item">
+    <div class="box">good</div>
+  </div>
+  <div class="item right">
+    <div class="box">good</div>
+  </div>
+  <div class="item">
+    <div class="box">good</div>
+  </div>
+</body>
+```
+
+```css
+.item {
+  width: 50%;
+  background-color: orange;
+}
+
+.item.right {
+  margin-left: auto;
+}
+
+.item .box {
+  padding: 40px;
+}
+```
+
+자식 크기는 부모의 Containing Block 사이즈를 벗어날 수 없기 때문에 이를 이용해서 유연한 결과를 만들 수도 있습니다.
 
 # 정리
 
