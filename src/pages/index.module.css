@@ -3,27 +3,48 @@
  * and scoped locally.
  */
 
-.heroBanner {
-  padding: 4rem 0;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
+:root {
+  --main-color: rgb(84 200 176);
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
+.main {
+  margin: 30px auto auto;
+  text-align: center;
+  background-color: transparent;
 }
 
 .buttons {
   display: flex;
+  gap: 20px;
+  margin: 20px 50px 50px;
+  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
 
-.landingTitle {
-  color: black;
+.contentBox {
   text-align: center;
-  margin-top: 1em;
+  min-width: 300px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  padding: 30px;
+}
+
+.button {
+  text-align: center;
+  display: block;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #eee;
+  min-width: 100px;
+}
+
+.button:hover {
+  background-color: #eee;
+}
+
+@media screen and (min-width: 500px) {
+  /* .buttons; */
 }
