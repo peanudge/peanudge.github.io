@@ -24,7 +24,7 @@ export default function Home(): JSX.Element {
         </div>
         <div className={styles.contentBox}>
           <p>정리하고 싶은 기술적인 상세한 내용</p>
-          <Link className={styles.button} to="/blog">
+          <Link className={styles.button} to="/docs">
             문서
           </Link>
         </div>
