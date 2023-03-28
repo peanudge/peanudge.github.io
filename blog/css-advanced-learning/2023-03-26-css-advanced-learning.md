@@ -65,6 +65,7 @@ flowchart LR
 
 - margin과 padding 구분하고 적절히 활용하기
 - width와 height의 초기값 이해하기
+  - auto 값 이해하기
 - margin의 특수성 이해하고 활용하기
   - margin collapsing
   - negative margins

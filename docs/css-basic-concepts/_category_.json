@@ -1,8 +1,8 @@
 {
-  "label": "CSS Important Concepts",
-  "position": 2,
+  "label": "CSS Basic",
+  "position": 3,
   "link": {
     "type": "generated-index",
-    "description": "CSS 의 중요한 기초 개념들을 정리한 글들"
+    "description": "More about css"
   }
 }

@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Containing Block란?
+# Containing Block 과 `auto` 값
 
 Containing Block를 먼저 정의해보면 `가장 가까운 Block Level 부모요소의 Content 영역`을 의미합니다.
 
