@@ -217,3 +217,16 @@ in `package.json`
 Done!, We can auto formatting whenever commit.
 
 ![auto-formatting](./auto-formatting.png)
+
+# End
+
+https://github.com/peanut-lover/csharp-auto-format-template
+
+# Reference
+
+> https://johnnyreilly.com/prettier-your-csharp-with-dotnet-format-and-lint-staged#dotnet-format-a-new-hope
+
+> https://johnnyreilly.com/eslint-your-csharp-in-vs-code-with-roslyn-analyzers
+
+> MS Dotnet Naming Rule
+> https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/code-style-rule-options
