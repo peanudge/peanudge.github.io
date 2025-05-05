@@ -1,3 +1,9 @@
-# My Blog
+# Blog Project
 
-Blog Testing...
+(WIP...)
+
+## Environment
+
+NextJS + Github Page
+
+Ref. https://github.com/gregrickaby/nextjs-github-pages?tab=readme-ov-file
